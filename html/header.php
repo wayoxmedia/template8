@@ -6,7 +6,7 @@
     <div class="auto-container">
       <div class="inner-container d-flex justify-content-between align-items-center flex-wrap">
         <!-- Logo Box -->
-        <div class="logo"><a href="index.html"><img src="images/logo-2.png" alt="" title=""></a></div>
+        <div class="logo"><a href="#"><img src="images/logo-2.png" alt="" title=""></a></div>
 
         <div class="nav-outer d-flex">
 
@@ -22,24 +22,17 @@
 
             <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
               <ul class="navigation clearfix">
-                <li class="dropdown"><a href="#">Home</a>
+                <li class="dropdown"><a href="#"><?= TXT_HOME ?></a>
                   <ul>
-                    <li><a href="index.html">Homepage One</a></li>
-                    <li><a href="index-2.html">Homepage Two</a></li>
-                    <li><a href="index-3.html">Homepage Three</a></li>
-                    <li><a href="index-4.html">Homepage Four</a></li>
-                    <li><a href="index-5.html">Homepage Five</a></li>
-                    <li><a href="index-6.html">Homepage Six</a></li>
-                    <li><a href="index-7.html">Homepage Seven</a></li>
-                    <li class="dropdown"><a href="#">Header Styles</a>
+                    <li><a href="#"><?= LINK1 ?></a></li>
+                    <li><a href="#"><?= LINK2 ?></a></li>
+                    <li><a href="#"><?= LINK3 ?></a></li>
+
+                    <li class="dropdown"><a href="#"><?= TXT_SUBMENU ?></a>
                       <ul>
-                        <li><a href="index.html">Header Style One</a></li>
-                        <li><a href="index-2.html">Header Style Two</a></li>
-                        <li><a href="index-3.html">Header Style Three</a></li>
-                        <li><a href="index-4.html">Header Style Four</a></li>
-                        <li><a href="index-5.html">Header Style Five</a></li>
-                        <li><a href="index-6.html">Header Style Six</a></li>
-                        <li><a href="index-7.html">Header Style Seven</a></li>
+                        <li><a href="#"><?= LINK1 ?></a></li>
+                        <li><a href="#"><?= LINK2 ?></a></li>
+                        <li><a href="#"><?= LINK3 ?></a></li>
                       </ul>
                     </li>
                   </ul>
@@ -49,21 +42,6 @@
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="team.html">Team</a></li>
                     <li><a href="testimonial.html">Testimonial</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"><a href="#">Services</a>
-                  <ul>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="service-detail.html">Service Detail</a></li>
-                  </ul>
-                </li>
-                <li><a href="projects.html">project</a></li>
-                <li class="dropdown"><a href="#">Blog</a>
-                  <ul>
-                    <li><a href="blog.html">Our Blog</a></li>
-                    <li><a href="blog-classic.html">Blog Classic</a></li>
-                    <li><a href="blog-detail.html">Blog Detail</a></li>
-                    <li><a href="not-found.html">Not Found</a></li>
                   </ul>
                 </li>
                 <li><a href="contact.html">Contact</a></li>
@@ -90,7 +68,7 @@
               <a class="btn-style-eight theme-btn btn-item" href="contact.html">
                 <div class="btn-wrap">
                   <span class="text-one">Get A Quote</span>
-                  <span class="text-two">Get A Quote</span>
+                  <span class="text-two">Get NOW</span>
                 </div>
               </a>
             </div>

@@ -8,33 +8,10 @@ const SUPPORT_EMAIL = 'mail@email.com';
 const API_URL = 'http://route.test/api';
 const VERSION = '1.0.0';
 
-const TEXTO_PONTE_EN_CONTACTO = '';
+// header.php
+const LINK1 = '';
+const LINK2 = '';
+const LINK3 = '';
+const TXT_HOME = '';
 
-const TEXTO_SUBSCRIBE = "";
-
-const TEXTO_SUBSCRIBE_PARRAFO = "";
-
-const TEXTO_EMAIL = "";
-
-const TEXTO_TELEFONO = "";
-
-const TEXTO_SU_EMAIL = "";
-
-
-
-const META_DESCRIPTION = '';
-
-const META_KEYWORDS = '';
-
-const TEXT_WELCOME = '""';
-const TEXT_ESPECIALIDAD = '';
-const TITLE_EMPANADAS = '';
-const DESCRIPTION_EMPANADAS = '';
-const TITLE_AREPAS = '';
-const DESCRIPTION_AREPAS = '';
-const TITLE_ALMUERZOS = '';
-const DESCRIPTION_ALMUERZOS = '';
-
-const TEXTO_AREPAS = '';
-const TEXTO_COMBO = '';
-const PARRAFO_AREPAS = '';
+const TXT_SUBMENU = '';
