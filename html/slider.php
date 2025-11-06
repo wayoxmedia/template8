@@ -16,7 +16,7 @@
             <div class="slider-four_text">Lorem ipsum dolor sit amet, consectetur adip isic ing elit, sed do eiusmod </div>
             <!-- Button Box -->
             <div class="slider-four_button-box">
-              <a class="btn-style-eight theme-btn btn-item" href="contact.html">
+              <a class="btn-style-eight theme-btn btn-item" href="#">
                 <div class="btn-wrap">
                   <span class="text-one">Learn More</span>
                   <span class="text-two">Learn More</span>
@@ -43,7 +43,7 @@
             <div class="slider-four_text">Lorem ipsum dolor sit amet, consectetur adip isic ing elit, sed do eiusmod </div>
             <!-- Button Box -->
             <div class="slider-four_button-box">
-              <a class="btn-style-eight theme-btn btn-item" href="contact.html">
+              <a class="btn-style-eight theme-btn btn-item" href="#">
                 <div class="btn-wrap">
                   <span class="text-one">Learn More</span>
                   <span class="text-two">Learn More</span>
@@ -70,7 +70,7 @@
             <div class="slider-four_text">Lorem ipsum dolor sit amet, consectetur adip isic ing elit, sed do eiusmod </div>
             <!-- Button Box -->
             <div class="slider-four_button-box">
-              <a class="btn-style-eight theme-btn btn-item" href="contact.html">
+              <a class="btn-style-eight theme-btn btn-item" href="#">
                 <div class="btn-wrap">
                   <span class="text-one">Learn More</span>
                   <span class="text-two">Learn More</span>

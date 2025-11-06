@@ -10,16 +10,16 @@
       <div class="callback-title_column col-lg-6 col-md-12 col-sm-12">
         <div class="callback-title_inner">
           <div class="sec-title-three">
-            <div class="sec-title-three_title style-two">When You Make it</div>
-            <h2 class="sec-title-three_heading">Lets Make Today Your Business</h2>
-            <div class="sec-title-three_text">Your business will be better forever</div>
+            <div class="sec-title-three_title style-two"><?= TXT_CB_TITLE01 ?></div>
+            <h2 class="sec-title-three_heading"><?= TXT_CB_TITLE02 ?></h2>
+            <div class="sec-title-three_text"><?= TXT_CB_TITLE03 ?></div>
           </div>
           <!-- Button Box -->
           <div class="button-box">
-            <a class="btn-style-eight theme-btn btn-item" href="contact.html">
+            <a class="btn-style-eight theme-btn btn-item" href="#">
               <div class="btn-wrap">
-                <span class="text-one">Learn More</span>
-                <span class="text-two">Learn More</span>
+                <span class="text-one"><?= TXT_CB_LINK1 ?></span>
+                <span class="text-two"><?= TXT_CB_LINK2 ?></span>
               </div>
             </a>
           </div>
@@ -29,41 +29,56 @@
       <div class="callback-form_column col-lg-6 col-md-12 col-sm-12">
         <div class="callback-form_inner">
           <div class="sec-title-three light">
-            <div class="sec-title-three_title style-two">Get quick response</div>
-            <h2 class="sec-title-three_heading">Request for a Callback</h2>
+            <div class="sec-title-three_title style-two"><?= TXT_CB_FORM_MINITITLE ?></div>
+            <h2 class="sec-title-three_heading"><?= TXT_CB_FORM_TITLE ?></h2>
           </div>
 
           <!-- Default Form -->
           <div class="default-form style-two">
-            <form method="post" action="contact.html">
-
+            <form method="post" id="contactForm">
               <div class="form-group">
                 <span class="field-icon fa-solid fa-user fa-fw"></span>
-                <input type="text" name="username" placeholder="Your Name" required="">
+                <input type="text"
+                       id="iptName"
+                       name="iptName"
+                       placeholder="Your Name">
               </div>
-
               <div class="form-group">
                 <span class="field-icon fa-solid fa-envelope fa-fw"></span>
-                <input type="text" name="email" placeholder="Your Email" required="">
+                <input type="text"
+                       id="iptEmail"
+                       name="iptEmail"
+                       placeholder="Your Email">
               </div>
-
-              <div class="form-group">
-                <span class="field-icon fa-solid fa-phone fa-fw"></span>
-                <input type="text" name="userphone" placeholder="Your phone" required="">
-              </div>
-
               <div class="form-group">
                 <span class="field-icon fa-solid fa-file fa-fw"></span>
-                <textarea class="" name="message" placeholder="Your message"></textarea>
+                <textarea class=""
+                          id="iptMessage"
+                          name="iptMessage"
+                          placeholder="Your message"></textarea>
               </div>
-
               <div class="form-group">
-                <button class="request-btn theme-btn">
+                <button id="btnSubmitContact"
+                        type="button"
+                        class="request-btn theme-btn">
                   send request
                 </button>
               </div>
 
             </form>
+            <br>
+            <div class="message-contact pb-3">
+              <div class="row">
+                <div class="col"></div>
+                <div class="col-auto">
+                  <div class="d-none alert text-center" role="alert" id="contactFormResponse">
+                    <p class="mt-4 d-none" id="pMessageContact"></p>
+                    <ul class="mt-3 list-unstyled d-none" id="ulErrorsContact"></ul>
+                  </div>
+                </div>
+                <div class="col"></div>
+              </div>
+            </div>
           </div>
           <!-- End Default Form -->
 

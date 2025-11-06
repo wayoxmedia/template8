@@ -11,9 +11,9 @@
           <div class="counter-two_block-inner">
             <div class="upper-box">
               <div class="counter-two_icon flaticon-profit"></div>
-              <div class="counter-two_counter"><span class="odometer" data-count="50"></span> +</div>
+              <div class="counter-two_counter"><span class="odometer" data-count="<?= TXT_COUNTER01_VALUE ?>"></span> <?= TXT_COUNTER01_TYPE ?></div>
             </div>
-            <div class="counter-two_text">World wide Business Automation</div>
+            <div class="counter-two_text"><?= TXT_COUNTER01_TITLE ?></div>
           </div>
         </div>
 
@@ -22,9 +22,9 @@
           <div class="counter-two_block-inner">
             <div class="upper-box">
               <div class="counter-two_icon flaticon-business-presentation"></div>
-              <div class="counter-two_counter"><span class="odometer" data-count="20"></span> k</div>
+              <div class="counter-two_counter"><span class="odometer" data-count="<?= TXT_COUNTER02_VALUE ?>"></span> <?= TXT_COUNTER02_TYPE ?></div>
             </div>
-            <div class="counter-two_text">World wide Business Partners</div>
+            <div class="counter-two_text"><?= TXT_COUNTER02_TITLE ?></div>
           </div>
         </div>
 
@@ -33,9 +33,9 @@
           <div class="counter-two_block-inner">
             <div class="upper-box">
               <div class="counter-two_icon flaticon-market"></div>
-              <div class="counter-two_counter"><span class="odometer" data-count="30"></span> %</div>
+              <div class="counter-two_counter"><span class="odometer" data-count="<?= TXT_COUNTER03_VALUE ?>"></span> <?= TXT_COUNTER03_TYPE ?></div>
             </div>
-            <div class="counter-two_text">World wide Business Profit</div>
+            <div class="counter-two_text"><?= TXT_COUNTER03_TITLE ?></div>
           </div>
         </div>
 

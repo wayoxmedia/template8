@@ -6,8 +6,8 @@
       <div class="row clearfix">
         <div class="title-column col-lg-6 col-md-12 col-sm-12">
           <div class="sec-title-three light">
-            <div class="sec-title-three_title style-two">Get Updates</div>
-            <h2 class="sec-title-three_heading">Subscribe to our Newsletter</h2>
+            <div class="sec-title-three_title style-two"><?= TXT_SUSCRIBE_MINITITLE ?></div>
+            <h2 class="sec-title-three_heading"><?= TXT_SUSCRIBE_TITLE ?></h2>
           </div>
         </div>
 

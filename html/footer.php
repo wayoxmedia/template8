@@ -26,7 +26,7 @@
             <div class="footer-column col-lg-7 col-md-6 col-sm-12">
               <div class="footer-widget logo-widget">
                 <div class="logo">
-                  <a href="index.html"><img src="images/logo-3.png" alt="" /></a>
+                  <a href="#"><img src="images/logo-3.png" alt="" /></a>
                 </div>
                 <div class="text">Letem accusantium doloremque laudantium, totam  periam</div>
                 <ul class="contact-list">
@@ -68,7 +68,7 @@
                     <img src="images/resource/news-widget-1.jpg" alt="" />
                   </div>
                   <div class="news-widget_post-date">Nov 08, 2020</div>
-                  <h6 class="news-widget_title"><a href="blog-detail.html">Tips and tricks to boost your business today</a></h6>
+                  <h6 class="news-widget_title"><a href="#">Tips and tricks to boost your business today</a></h6>
                 </div>
 
                 <!--News Widget Block-->
@@ -77,7 +77,7 @@
                     <img src="images/resource/news-widget-2.jpg" alt="" />
                   </div>
                   <div class="news-widget_post-date">Nov 08, 2020</div>
-                  <h6 class="news-widget_title"><a href="blog-detail.html">Advising on the administration of human resource</a></h6>
+                  <h6 class="news-widget_title"><a href="#">Advising on the administration of human resource</a></h6>
                 </div>
               </div>
             </div>
@@ -115,11 +115,11 @@
   <div class="footer-bottom">
     <div class="auto-container">
       <div class="d-flex justify-content-between align-items-center flex-wrap">
-        <div class="copyright">2023 &copy; All rights reserved by <a href="#">Themexriver</a></div>
+        <div class="copyright">2023 &copy; All rights reserved by <a href="http://hiperbinario.com">HiperBinario</a></div>
 
         <!-- Social Box -->
         <ul class="header-social_box-two">
-          <li><a href="https://www.twitter.com/" class="fa-brands fa-facebook-f fa-fw"></a></li>
+          <li><a href="https://www.x.com/" class="fa-brands fa-facebook-f fa-fw"></a></li>
           <li><a href="https://www.facebook.com/" class="fa-brands fa-twitter fa-fw"></a></li>
           <li><a href="https://www.linkedin.com/" class="fa-brands fa-linkedin fa-fw"></a></li>
           <li><a href="https://instagram.com/" class="fa-solid fa-instagram fa-fw"></a></li>

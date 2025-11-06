@@ -39,12 +39,12 @@
                 </li>
                 <li class="dropdown"><a href="#">About</a>
                   <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="testimonial.html">Testimonial</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Testimonial</a></li>
                   </ul>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Contact</a></li>
               </ul>
             </div>
 
@@ -55,7 +55,7 @@
 
             <!-- Cart Box -->
             <div class="cart-box">
-              <a class="cart fa-solid fa-cart-plus fa-fw" href="contact.html"></a>
+              <a class="cart fa-solid fa-cart-plus fa-fw" href="#"></a>
             </div>
 
           </nav>
@@ -65,7 +65,7 @@
 
             <!-- Button Box -->
             <div class="button-box">
-              <a class="btn-style-eight theme-btn btn-item" href="contact.html">
+              <a class="btn-style-eight theme-btn btn-item" href="#">
                 <div class="btn-wrap">
                   <span class="text-one">Get A Quote</span>
                   <span class="text-two">Get NOW</span>
@@ -105,7 +105,7 @@
 
             <!-- Button Box -->
             <div class="button-box">
-              <a class="btn-style-eight theme-btn btn-item" href="contact.html">
+              <a class="btn-style-eight theme-btn btn-item" href="#">
                 <div class="btn-wrap">
                   <span class="text-one">Get A Quote</span>
                   <span class="text-two">Get A Quote</span>
@@ -130,7 +130,7 @@
     <div class="menu-backdrop"></div>
     <div class="close-btn"><span class="icon fas fa-window-close fa-fw"></span></div>
     <nav class="menu-box">
-      <div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+      <div class="nav-logo"><a href="#"><img src="images/logo.png" alt="" title=""></a></div>
       <!-- Search -->
       <div class="search-box">
         <form method="post" action="contact.html">

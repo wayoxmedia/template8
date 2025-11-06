@@ -15,7 +15,7 @@
             <img src="images/resource/finance-1.jpg" alt="" />
           </div>
           <!-- About One Detail -->
-          <a class="finance-one_play lightbox-video fa-solid fa-play fa-fw" href="https://www.youtube.com/watch?v=kxPCFljwJws">
+          <a class="finance-one_play lightbox-video fa-solid fa-play fa-fw" href="<?= TXT_FINANCE_VIDEO_URL ?>">
             <i class="ripple"></i>
           </a>
         </div>
@@ -24,21 +24,21 @@
       <div class="finance-one_content-column col-lg-6 col-md-12 col-sm-12">
         <div class="finance-one_content-inner">
           <div class="sec-title-three">
-            <div class="sec-title-three_title style-two">when we make it</div>
-            <h2 class="sec-title-three_heading">top class financial solution</h2>
+            <div class="sec-title-three_title style-two"><?= TXT_FINANCE_MINITITLE ?></div>
+            <h2 class="sec-title-three_heading"><?= TXT_FINANCE_TITLE ?></h2>
           </div>
-          <div class="finace-one_text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium runt mollit anila</div>
+          <div class="finace-one_text"><?= TXT_FINANCE_TEXT ?></div>
 
           <!-- Skills / Style Four -->
           <div class="default-skills style-four">
 
             <!-- Skill Item -->
             <div class="default-skill-item">
-              <div class="default-skill-title">Business Analysis</div>
+              <div class="default-skill-title"><?= TXT_FINANCE_TITLE01 ?></div>
               <div class="default-skill-bar">
                 <div class="default-bar-inner">
-                  <div class="default-bar progress-line" data-width="80">
-                    <div class="default-count-box count-box"><span class="count-text" data-speed="2000" data-stop="80">0</span>%</div>
+                  <div class="default-bar progress-line" data-width="<?= TXT_FINANCE01_VALUE ?>">
+                    <div class="default-count-box count-box"><span class="count-text" data-speed="2000" data-stop="<?= TXT_FINANCE01_VALUE ?>">0</span>%</div>
                     <div class="default-skill-percentage"></div>
                   </div>
                 </div>
@@ -48,11 +48,11 @@
 
             <!-- Skill Item -->
             <div class="default-skill-item">
-              <div class="default-skill-title">Business Planning</div>
+              <div class="default-skill-title"><?= TXT_FINANCE_TITLE02 ?></div>
               <div class="default-skill-bar">
                 <div class="default-bar-inner">
-                  <div class="default-bar progress-line" data-width="70">
-                    <div class="default-count-box count-box"><span class="count-text" data-speed="2000" data-stop="70">0</span>%</div>
+                  <div class="default-bar progress-line" data-width="<?= TXT_FINANCE02_VALUE ?>">
+                    <div class="default-count-box count-box"><span class="count-text" data-speed="2000" data-stop="<?= TXT_FINANCE02_VALUE ?>">0</span>%</div>
                     <div class="default-skill-percentage"></div>
                   </div>
                 </div>
@@ -61,11 +61,11 @@
 
             <!-- Skill Item -->
             <div class="default-skill-item">
-              <div class="default-skill-title">Business marketing</div>
+              <div class="default-skill-title"><?= TXT_FINANCE_TITLE03 ?></div>
               <div class="default-skill-bar">
                 <div class="default-bar-inner">
-                  <div class="default-bar progress-line" data-width="90">
-                    <div class="default-count-box count-box"><span class="count-text" data-speed="2000" data-stop="90">0</span>%</div>
+                  <div class="default-bar progress-line" data-width="<?= TXT_FINANCE03_VALUE ?>">
+                    <div class="default-count-box count-box"><span class="count-text" data-speed="2000" data-stop="<?= TXT_FINANCE03_VALUE ?>">0</span>%</div>
                     <div class="default-skill-percentage"></div>
                   </div>
                 </div>
